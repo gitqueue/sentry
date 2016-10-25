@@ -9,6 +9,7 @@ Version 8.10 (Unreleased)
 - ``SENTRY_FILESTORE`` deprecated and replaced with ``filestore.backend``
 - ``SENTRY_FILESTORE_OPTIONS`` deprecated and replaced with ``filestore.options``
 - Add watchOS support for cocoa interface.
+- SSO is now enforced to access data within any org that has it set as a requirement.
 
 API Changes
 ~~~~~~~~~~~
